@@ -30,4 +30,5 @@ management system from FIS that provides the following capabilities:
 
 Your Python scripts directory may be somewhere other than `/opt/conda/bin/`.  A quick trick to find the test script is `pip uninstall pyhli`, then respond `n` to the confirmation prompt.  Your script directory will be displayed to your terminal.
 
-On first use, you will be directed to a website to obtain a `QOMA_PIN` which will entitle you to use the [pyhli](https://github.com/qomaio/pyhli) for the duration of your FAME license.
+On first use, you will be directed to a website to obtain a `QOMA_PIN` which will entitle you to use the pyhli
+for the duration of your FAME license.
