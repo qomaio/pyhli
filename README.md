@@ -1,5 +1,5 @@
 # Python Host Language Interface
-The pyhli package offers complete access from Python to the [FIS MarketMap](https://fame.sungard.com/support.html) 
+The pyhli package offers complete access from Python to the FIS MarketMap 
 C-Toolkit ("FAME C-HLI").  The [qoma-smuggler](https://github.com/qomaio/python-smuggler) package offers higher level functionality when working with both Python and FAME.
 
 FAME is a fully integrated software and database 
