@@ -10,6 +10,10 @@ import time
 NOBS=70000
 NSERIES=20
 
+rng = [pyhli.HCASEX,1,NOBS]
+mistt = [0.0, 0.0, 0.0]
+valary=[0.0 for i in range(NOBS)]
+
 start = time.time()
 # initialize FAME HLI
 status = [-1]
@@ -30,10 +34,6 @@ pyhli.cfmver(status, ver)
 #    pkg_resources.get_distribution("pyhli").version, ver[0]))
 if status[0] != pyhli.HSUCC:
     sys.exit()
-
-rng = [pyhli.HCASEX,1,NOBS]
-mistt = [0.0, 0.0, 0.0]
-valary=[0.0 for i in range(NOBS)]
 
 # open FAME database
 dbkey = [-1]
