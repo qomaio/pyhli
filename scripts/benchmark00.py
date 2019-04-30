@@ -63,5 +63,5 @@ if status[0] != pyhli.HSUCC:
     sys.exit()
     
 end = time.time()
-print('{0:.3f} seconds'.format(end-start))
+print('{0:.6f} seconds'.format(end-start))
 
